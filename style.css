@@ -1,0 +1,86 @@
+
+*
+{
+    margin: 0px;
+    padding:0px;
+}
+#parent
+{
+    display:flex;
+    margin-top: 120px;
+}
+
+
+#leftPane
+{
+    margin-left: 10px;
+    background-color: 	#BEBEBE;
+    width: 50%;
+    height:400px;
+    flex:1;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+
+
+#taskHeaderText
+{
+    padding:15px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#taskListHolder
+{
+    width:100%;
+    margin:20px 0px 0px 0px;
+    font-family: cursive;
+}
+
+.checkBoxHolder
+{
+   box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 7px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.checkBox
+{
+   
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+}
+
+
+.BTN
+{
+    text-align:center;
+    box-sizing: border-box;
+    padding-top: 3px;
+    margin-bottom: 9px;
+    margin-right: 8px;
+    background-color: #f44336;
+    color: white;
+}
+
+#rightPane
+{
+    width: 80%;
+    flex:1;
+    
+}
+
+#inputBox
+{
+    width: 100%;
+    height : 400px;
+    box-sizing: border-box;
+    padding:50px;
+    outline: none;
+    font-size: xx-large;
+    outline:none;
+    border:none;
+}
